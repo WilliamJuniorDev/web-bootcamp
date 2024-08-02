@@ -35,17 +35,19 @@
 
   </div>
 
-  <script>
-    const fotoAniversario = document.getElementById('fotoAniversario');
-    fotoAniversario.addEventListener('mouseover', function () {
-      fotoAniversario.src = './img/bb.jpg';
-      fotoAniversario.style.width = '50%'
-    });
+ const fotoAniversario = document.getElementById('fotoAniversario');
 
-    fotoAniversario.addEventListener('mouseout', function () {
-      fotoAniversario.src = './img/invite.jpg';
-      fotoAniversario.style.width = '';
-    });
+fotoAniversario.addEventListener('mouseover', function () {
+  fotoAniversario.classList.add('hovered');
+  fotoAniversario.src = './img/bb.jpg';
+  fotoAniversario.style.width = '50%';
+});
+
+fotoAniversario.addEventListener('mouseout', function () {
+  fotoAniversario.classList.remove('hovered');
+  fotoAniversario.src = './img/invite.jpg';
+  fotoAniversario.style.width = '';
+});
 
   </script>
 
