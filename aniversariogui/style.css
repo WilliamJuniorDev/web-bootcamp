@@ -26,3 +26,12 @@ body {
   cursor: pointer;
   opacity: 0.8;
 }
+
+.foto {
+  transition: width 0.5s ease, opacity 0.5s ease;
+  opacity: 1;
+}
+
+.foto.hovered {
+  opacity: 0.5;
+}
