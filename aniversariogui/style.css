@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.idadefesta {
+  color: red;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.descricao {
+  text-align: left;
+}
+
+.lista {
+  text-align: left;
+}
+
+.foto:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

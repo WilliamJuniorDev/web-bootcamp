@@ -1,0 +1,30 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.bodybody {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gamebody {
+  border: solid 1px;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.gametitle {
+  text-align: center;
+  margin-top: 10px;
+  background: #f8f8f8;
+}
+
+.titlebody {
+  text-align: center;
+}
+
+.gamedescripition {
+  background-color: #f8f8f8;
+  text-align: center;
+}

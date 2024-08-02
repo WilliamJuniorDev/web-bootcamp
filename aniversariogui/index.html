@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convite dos meus 2 aninhos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="cabecalho">
+      <h1>Olá, venha para meu <span class="idadefesta">aniversário</span> de <span class="idadefesta">02 aninhos</span>
+      </h1>
+      <h2>Será dia 04 de maio de 2025</h2>
+      <h2>Você é meu convidado especial</h2>
+    </div>
+
+    <hr>
+    <img id="fotoAniversario" class="foto" src="./img/invite.jpg" alt="foto de bolo de aniversário">
+    <p id="textoSobreImagem"></p>
+    <hr>
+    <h3 class="descricao">O que vai ter</h3>
+
+    <div class="lista">
+      <ul>
+        <li>Brincadeiras</li>
+        <li>Musicas</li>
+        <li>Diversao</li>
+        <li>Bolo</li>
+      </ul>
+    </div>
+    <hr>
+
+  </div>
+
+  <script>
+    const fotoAniversario = document.getElementById('fotoAniversario');
+    fotoAniversario.addEventListener('mouseover', function () {
+      fotoAniversario.src = './img/bb.jpg';
+      fotoAniversario.style.width = '50%'
+    });
+
+    fotoAniversario.addEventListener('mouseout', function () {
+      fotoAniversario.src = './img/invite.jpg';
+      fotoAniversario.style.width = '';
+    });
+
+  </script>
+
+</body>
+
+</html>
